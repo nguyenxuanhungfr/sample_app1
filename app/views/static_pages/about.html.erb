@@ -1,10 +1,8 @@
 <% provide(:title, "About") %>
-<h1>About</h1>
+<h1><%= t "about" %></h1>
 <p>
-  The <%= link_to "http://www.railstutorial.org/" do %>
-  <%= content_tag :em, "Ruby on Rails" %>
-  <% end %> is a
-  <%= link_to "book", "http://www.railstutorial.org/book" %> and
-  <%= link_to "screencast series", "http://screencasts.railstutorial.org/" %> to teach web development with
-  <%= link_to "Ruby on Rails", "http://rubyonrails.org/" %> This is the sample application for the tutorial.
+  The <a href="http://www.railstutorial.org/"><em><%= t "title_about" %></em></a> is a
+  <a href="http://www.railstutorial.org/book"><%= t "title_book" %></a> and
+  <a href="http://screencasts.railstutorial.org/"><%= t "title_series" %></a> to teach web development with
+  <a href="http://www.railstutorial.org/"><%= t "title_about" %></a> This is the sample application for the tutorial.
 </p>
