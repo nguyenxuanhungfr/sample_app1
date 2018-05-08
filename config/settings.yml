@@ -1,0 +1,9 @@
+user_model:
+  max_length_name: 50
+  max_length_email: 255
+  min_length_password: 6
+  img_size: 80
+  page_size: 5
+  max_length_micropost: 140
+  max_size30: 30
+  one: 1
