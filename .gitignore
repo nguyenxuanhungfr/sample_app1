@@ -24,7 +24,8 @@
 # Ignore Spring files.
 /spring/*.pid
 /test/*
-/guardfile
+/Guardfile
+/heroku/*
 
 config/settings.local.yml
 config/settings/*.local.yml
