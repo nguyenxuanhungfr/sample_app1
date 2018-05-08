@@ -55,10 +55,6 @@ en:
   railspng: "rails.png"
   signup_title: "Sign up"
   confirm: "Confirmation"
-  size: 80
-  max_50: 50
-  max_255: 255
-  min_6: 6
   create_account: "Create my account"
   signup_content: "This will be a signup page for new users."
   form_contain: "The form contains"
@@ -109,6 +105,9 @@ en:
   notify_expire_link: "This link will expire in two hours."
   notify_expire_link1: "If you did not request your password to be reset, please ignore this email and
 your password will stay as it is."
-  user_not_found: "User not found"
-  delete_success: "Delete success"
-  delete_failed: "Delete failed"
+  max_sizef: "should be less than 5MB"
+  post: "Post"
+  view_profile: "view my profile"
+  micropost: "Micropost"
+  confirm: "You sure ?"
+  new_micropost: "New micropost"
