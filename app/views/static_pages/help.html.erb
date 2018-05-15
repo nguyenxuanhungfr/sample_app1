@@ -1,11 +1,8 @@
 <% provide(:title, "Help") %>
-<h1>Help</h1>
+<h1><%= t "help" %></h1>
 <p>
   Get help on the Ruby on Rails Tutorial at the
-  <%= link_to "Rails Tutorial help section", "http://www.railstutorial.org/help" %>.
+  <a href="http://www.railstutorial.org/help"><%= t "rails_section" %></a>.
   To get help on this sample app, see the
-  <%= link_to "", "http://www.railstutorial.org/book" %>
-  <%= link_to "http://www.railstutorial.org/book" do %>
-  <%= content_tag :em, "Ruby on Rails Tutorial." %>
-  <% end %>
+  <a href="http://www.railstutorial.org/book"><em><%= t "title" %></em></a>
 </p>
