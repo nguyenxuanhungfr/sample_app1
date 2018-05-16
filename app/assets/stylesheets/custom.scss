@@ -1,12 +1,9 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import 'global_variables.scss';
-@import 'mixin.scss'
+@import 'mixin.scss';
 
 aside {
-  section.user_info {
-    margin-top: 20px;
-  }
   section {
     padding: 10px 0;
     margin-top: 20px;
