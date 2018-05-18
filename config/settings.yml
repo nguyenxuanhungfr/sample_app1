@@ -7,3 +7,4 @@ user_model:
   max_length_micropost: 140
   max_size30: 30
   one: 1
+  two: 2
