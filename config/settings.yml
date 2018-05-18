@@ -8,3 +8,10 @@ user_model:
   max_size30: 30
   one: 1
   two: 2
+  img_size: 5
+  img_height: 400
+  img_width: 400
+  img_index_size: 50
+  img_accept: "image/jpeg,image/gif,image/png"
+  microfeed: "Micropost Feed"
+  rails_logo: "Rails logo"
